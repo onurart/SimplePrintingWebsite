@@ -1,0 +1,69 @@
+﻿<header class="header home-page-one">
+    <nav class="navbar navbar-default header-navigation stricky">
+        <div class="thm-container clearfix">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navigation" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand d" href="@Url.Action("Index","Home")">
+                    <img src="~/img/llogo.jpg" width="80" alt="ideal baski">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse main-navigation mainmenu " id="main-nav-bar">
+
+                <ul class="nav navbar-nav navigation-box">
+                    <li class="current">
+                        <a href="@Url.Action("Index","Home")">Ana Sayfa</a>
+                    </li>                   
+                    <li>
+                        <a href="">Hakkımızda</a>
+                        <ul class="sub-menu">
+                            <li><a href="@Url.Action("Index","About")">Biz Kimiz</a></li>
+                            <li><a href="@Url.Action("Index","About")">Misyon</a></li>
+                            <li><a href="@Url.Action("Index","About")">Vizyon</a></li>
+                        </ul><!-- /.sub-menu -->
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Services")">Faliyet Alanlari</a>
+                        <ul class="sub-menu">
+                            <li><a href="@Url.Action("Cart","Services")">ARAÇ KAPLAMA</a></li>
+                            <li><a href="@Url.Action("Roll","Services")">ROLL UP</a></li>
+                            <li><a href="@Url.Action("Folya","Services")">FOLYA BASKI</a></li>
+                            <li><a href="@Url.Action("Canvas","Services")">CANVAS BASKI</a></li>
+                            <li><a href="@Url.Action("Mesh","Services")">MESH BASKİ</a></li>
+                            <li><a href="@Url.Action("One","Services")">ONE WAY VİSİON</a></li>
+                            <li><a href="@Url.Action("Kumlama","Services")">KUMLAMA FOLYA</a></li>
+                            <li><a href="@Url.Action("orumcek","Services")">ÖRÜMCEK STAND</a></li>
+                            <li><a href="@Url.Action("Forex","Services")">FOREX BASKI</a></li>
+                            <li><a href="@Url.Action("Renkli","Services")">RENKLİ FOLYA</a></li>
+                            <li><a href="@Url.Action("Raket","Services")">RAKET BASKİ</a></li>
+                            <li><a href="@Url.Action("Vinil","Services")">VİNİL BASKİ</a></li>
+                        </ul><!-- /.sub-menu -->
+                    </li>
+                    <li><a href="@Url.Action("ref","Home")">REFERANSLAR</a></li>
+                    <li> <a href="@Url.Action("Contact","Home")">İletişim</a> </li>
+                </ul>
+            </div>
+            <div class="right-side-box">
+                <div class="social">
+                    <a href="#" class="fab fa-twitter hvr-pulse"></a>
+                    
+                    
+                    <a href="#" class="fab fa-pinterest hvr-pulse"></a>
+                    
+                    
+                    <a href="#" class="fab fa-facebook-f hvr-pulse"></a>
+                    
+                    
+                    <a href="#" class="fab fa-youtube hvr-pulse"></a>
+                </div> 
+            </div>  
+        </div> 
+    </nav>
+</header><!-- /.header -->
